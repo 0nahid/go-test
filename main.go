@@ -22,26 +22,17 @@ func main() {
 	// variable declaration
 	var firstName, lastName string
 	var age int
-	var isMarried bool
-	var salary float64
-	var hobbies []int
-
 	// variable assignment
 	firstName = "Nahid"
-	lastName = "Hassan"
+	lastName = "Hassan Bulbul"
 	age = 23
-	isMarried = false
-	salary = 12345.6789
-	hobbies = []int{1, 2, 3, 4, 5}
 
 	// fmt.Println("Hello, World! \nThis is just a test")
-	// fmt.Println("Hello I am Nahid Hassan ")
+	fmt.Println("Hello I am ", firstName, lastName, " and I am ", age, " years old.")
 	// fmt.Println("I am from CSE \tDepartment")
 	// fmt.Println("My Identity Number id: 22103166")
-	fmt.Println("My First Name is: ", firstName)
-	fmt.Println("My Last Name is: ", lastName)
-	fmt.Println("My Age is: ", age)
-	fmt.Println("My Salary is: ", salary)
-	fmt.Println("My Hobbies are: ", hobbies)
-	fmt.Println("My Marital Status is: ", isMarried)
+	// fmt.Println("My First Name is: ", firstName)
+	// fmt.Println("My Last Name is: ", lastName)
+	// fmt.Println("My Age is: ", age)
+	// fmt.Println(hobbies[] + " " + isMarried)
 }
