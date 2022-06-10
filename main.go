@@ -20,12 +20,12 @@ func main() {
 	** chan int → chan data type
 	 */
 	// variable declaration
-	var firstName, lastName string
-	var age int
+	// var firstName, lastName string
+	// var age int
 	// variable assignment
-	firstName = "Nahid"
-	lastName = "Hassan Bulbul"
-	age = 23
+	firstName := "Nahid"
+	lastName := "Hassan Bulbul"
+	age := 23
 
 	// fmt.Println("Hello, World! \nThis is just a test")
 	fmt.Println("Hello I am ", firstName, lastName, " and I am ", age, " years old.")
