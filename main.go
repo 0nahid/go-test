@@ -28,11 +28,12 @@ func main() {
 	age := 23
 
 	// fmt.Println("Hello, World! \nThis is just a test")
-	fmt.Println("Hello I am ", firstName, lastName, " and I am ", age, " years old.")
+	// fmt.Println("Hello I am ", firstName, lastName, " and I am ", age, " years old.")
 	// fmt.Println("I am from CSE \tDepartment")
 	// fmt.Println("My Identity Number id: 22103166")
 	// fmt.Println("My First Name is: ", firstName)
 	// fmt.Println("My Last Name is: ", lastName)
 	// fmt.Println("My Age is: ", age)
 	// fmt.Println(hobbies[] + " " + isMarried)
+	fmt.Printf("My First Name is: %s%s and age is %d \n", firstName, lastName,age)
 }
